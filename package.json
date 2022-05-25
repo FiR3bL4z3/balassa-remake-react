@@ -18,6 +18,7 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "readline-sync": "^1.4.10",
     "shelljs": "^0.8.5",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
@@ -27,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cc": "node tools/createComponent.js"
+    "cc": "node tools/createComponent.js",
+    "push": "node tools/push.js"
   },
   "eslintConfig": {
     "extends": [

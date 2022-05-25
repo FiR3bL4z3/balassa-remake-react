@@ -1,7 +1,12 @@
 const { exec } = require("shelljs");
-const { logTree } = require("./updateReadme");
+const { argv } = require("process");
+const readlineSync = require("readline-sync");
 
-logTree();
+let commitMessage;
+if (argv.length <= 2) {
+  commitMessage = readlineSync.question("Commit message: ");
+}
+
 exec("git add .");
-exec('git commit -m "Testing push tool"');
+exec(`git commit -m "${commitMessage}"`);
 exec("git push");
