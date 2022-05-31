@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import React, { FC } from "react";
+import { ShadowTest } from "../ShadowTest";
 
 const ImageContainer = styled.div`
   position: relative;
@@ -42,6 +43,13 @@ export const HomePage: FC = () => {
         <FilterBox>asdsad</FilterBox>
       </ImageContainer>
       <span>Home</span>
+      <ShadowTest zlevel={1}>asdasdasdas</ShadowTest>
+      <br />
+      <ShadowTest zlevel={2}>asdasdasdas</ShadowTest>
+      <br />
+      <ShadowTest zlevel={3}>asdasdasdas</ShadowTest>
+      <br />
+      <ShadowTest zlevel={4}>asdasdasdas</ShadowTest>
     </>
   );
 };
