@@ -4,9 +4,12 @@ import React, { FC } from "react";
 const HeroContainer = styled.div`
   width: 100%;
   height: 400px;
-  background-color: turquoise;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Hero: FC = () => {
-  return <HeroContainer />;
+  return <HeroContainer>balassa vagyok</HeroContainer>;
 };
