@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 import { ShadowBox } from "./ShadowBox";
 
@@ -11,5 +12,9 @@ const Nav = styled(ShadowBox)`
 `;
 
 export const Navbar: FC = () => {
-  return <Nav zlevel={4}>hello nav</Nav>;
+  return (
+    <Nav zlevel={4}>
+      <Link to="/">Kezdőlap</Link>
+    </Nav>
+  );
 };

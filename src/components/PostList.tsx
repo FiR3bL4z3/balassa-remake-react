@@ -15,13 +15,26 @@ const PostListContainer = styled.div`
 
 export const PostList: FC = () => {
   //should be fetched
-
   const posts: PostData[] = [
     {
       title: "Post title 1",
       author: "Aothur Kasdasd",
       content:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo alias quia officia aut culpa voluptatem quis. Harum vero accusantium odit officia aut culpa voluptatem quis. Harum vero accusantium odit perspiciatis iure, a fugiat nobis vitae eveniet rerum omnis distinctio?",
+      cover: "https://via.placeholder.com/300x100",
+    },
+    {
+      title: "Very very very very long post title",
+      author: "Aothur Kasdasd Asd",
+      content:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo alias quia officia aut culpa voluptatem quis. Harum vero accusantium odit officia aut culpa voluptatem quis. Harum vero accusantium odit perspiciatis iure, a fugiat nobis vitae eveniet rerum omnis distinctio?",
+      cover: "https://via.placeholder.com/300x100",
+    },
+    {
+      title: "Very very very very long post title",
+      author: "Aothur Kasdasd Asd",
+      content:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo alias quia officia aut culpa voluptatem quis. Harum vero accusantium odit officia aut culpa voluptatem quis. Harum vero accusantium odit perspiciatis iure, a fugiat nobis vitae eveniet rerum omnis distinctio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo alias quia officia aut culpa voluptatem quis. Harum vero accusantium odit officia aut culpa voluptatem quis. Harum vero accusantium odit perspiciatis iure, a fugiat nobis vitae eveniet rerum omnis distinctio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo alias quia officia aut culpa voluptatem quis. Harum vero accusantium odit officia aut culpa voluptatem quis. Harum vero accusantium odit perspiciatis iure, a fugiat nobis vitae eveniet rerum omnis distinctio?",
       cover: "https://via.placeholder.com/300x100",
     },
     {

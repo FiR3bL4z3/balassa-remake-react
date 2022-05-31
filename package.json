@@ -30,6 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cc": "node tools/createComponent.js",
+    "cs": "node tools/createStyledComponent.js",
     "push": "node tools/push.js"
   },
   "eslintConfig": {

@@ -12,7 +12,7 @@ const {
 function usage() {
   console.log(
     infomsg(
-      "Creates a new react components to the component folder with the given name"
+      "Creates a new react component to the components folder with the given name"
     )
   );
   console.log(infomsg("usage: npm run cc -- [componentName]"));

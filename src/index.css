@@ -24,3 +24,10 @@ code {
   --secondary: #333;
   --background: #ccc;
 }
+
+a,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+}

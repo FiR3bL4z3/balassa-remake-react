@@ -3,9 +3,15 @@ import type { PostData } from "../types";
 import styled from "@emotion/styled";
 import { ShadowBox } from "./ShadowBox";
 
-const PostTitle = styled.h4``;
+const PostTitle = styled.h4`
+  margin: 0;
+  padding: 0;
+`;
 
-const PostAuthor = styled.h5``;
+const PostAuthor = styled.h5`
+  margin: 0;
+  padding: 0;
+`;
 
 const PostContent = styled.p``;
 
@@ -28,7 +34,7 @@ export const Post: FC<{ postData: PostData }> = ({ postData }) => {
         <PostTitle>{postData.title}</PostTitle>
         <PostAuthor>{postData.author}</PostAuthor>
       </PostHeader>
-      <Cover src={postData.cover} alt="" />
+      <Cover src={postData.cover} alt="The posts cover photo" />
       <PostContent>{postData.content}</PostContent>
     </PostContainer>
   );
