@@ -27,7 +27,7 @@ code {
 
 a,
 a:active,
-a:visited,
-a:hover {
+a:visited {
   text-decoration: none;
+  color: var(--background);
 }
